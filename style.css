@@ -1,0 +1,711 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/*-----Nav bar-----*/	
+nav{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	background-color:#17006D;
+	color: white; 
+}
+  
+.logo{
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.menu ul{
+	display: flex;
+    margin-top: 15px;
+
+}
+.menu ul li a{
+	color: white;
+	padding: 10px;
+	margin-right: 35px;
+	font-size: 20px;
+}
+.menu ul li a:hover{
+	color: black;
+	background-color: white; 
+}
+
+#bars{
+	display: none;
+}
+.togglearea
+{
+	background-color: #17006D;	
+	padding: 20px;	
+	justify-content: flex-end;
+	display: none;
+}
+.togglearea label
+{
+	background-color: white;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label div{
+	background-color: black;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+/*---Home Page---*/
+.Home{
+	background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+	height: 93vh;
+}
+.intro{
+	padding-left: 35%;
+}
+.intro h1{
+	font-size: 35px;
+}
+.intro h2{
+	font-size: 20px;
+	text-decoration: underline;
+}
+.btn{
+	padding-left: 35%;
+	padding-top: 10px;
+	font-size: 22px
+}
+.btn a{
+	border: 2px solid white;
+	padding: 5px;
+	color: red;
+	border-radius: 8px;
+}
+.btn a:hover{
+	background-color: darkred;
+	border: none;
+	color: white;
+
+}
+
+
+/*---Portfolio page-----*/
+
+
+.Project{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	text-align: center;
+	justify-content: center;
+	background-color:#C0E1FB  ;
+	height: 93vh;
+	width: 100%;
+}
+.works{
+	margin-top: 30%;
+	cursor: pointer;
+
+}
+.imageholder{
+	box-shadow: 0 5px 10px gray;
+
+}
+.imageholder img{
+	padding-top: 20px;
+	transition: 0.5s;
+}
+.imageholder img:hover{
+	transform: scale(1.2);
+}
+.imageholder p{
+	background-color: black;
+	color: white;
+}
+.btn2 a{
+	border: 2px solid black;
+	font-size: 30px;
+	border-radius: 8px;
+}
+.btn2 a:hover{
+	background-color: darkred;
+	border: none;
+	color: white;
+
+}
+
+
+/*------CV section----*/
+.cv-section{
+	width: 80%;
+	margin: 3%;
+	margin-left: 15%;
+
+}
+.header{
+	width: 87%;
+	height:150px;
+	background-color:#0E0044;
+	display: flex;
+	text-align: center;
+}
+
+.header img{  
+	border-radius: 50%;
+	margin-left: 4%;
+	margin-top: -1%;
+	border: 3px solid white;
+	box-shadow: 6px 6px 15px gray;
+	transform: 0.5s;
+}
+.header img:hover{
+	transform: scale(1.12);
+}
+.n-s{
+	text-align: center;
+	color: white;
+	margin-top: 3%;
+	margin-left:20%;
+	font-size: 30px;
+
+}
+
+.resume-info{
+	display: flex;
+}
+.left-info{
+	width: 35%;
+	height: 83vh;
+	background-color: skyblue;
+	margin-top: 1%;
+
+}
+.left-info h1{
+	color: black;
+     text-align: center;
+     padding-top: 30px;
+     cursor: pointer;
+ 
+}
+
+.left-info p{
+	color: black;
+	font-size: 18px;
+	padding-top: 6px;
+}
+.Contact{
+	color: black;
+	margin-left:35%;
+	cursor: pointer;
+	padding-top: 9px;
+
+
+}
+
+.Intrest{
+	padding-top: 10%;
+}
+
+.Intrest .icons{
+	font-size: 25px;
+	padding-left: 35%;
+	padding-top: 30px;
+
+
+}
+
+.cn-bt{
+	padding-left: 10%;
+	padding-top: 50px;
+}
+.cn-bt a{
+	color: black;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 8px;
+	transform: 0.5s;
+}
+.cn-bt a:hover{
+      background-color: darkred;
+      color: white;
+      border:none;
+     
+}
+.right-info{
+	background-color: lightgray;
+	margin-left: 20px;
+	width: 50%;
+	margin-top:1%;
+
+}
+.EDUCATION{
+	text-align: center;
+	padding-top: 15px;
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
+.EDUCATION h4{
+	color: deepskyblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+.Skills h1{
+	text-align: center;
+	cursor: pointer;
+
+}
+.Skills ul li{
+     list-style: none;
+     margin-left: 30px;
+     font-size: 20px;
+     padding: 20px;
+	
+}
+
+/*-------Contact Form-----*/
+
+.Contact-form{
+	
+   height: 95vh;
+   display: flex;
+   text-align: center;
+   background: linear-gradient(to bottom, #33cccc 0%, #cc66ff 100%);
+}
+.Form{
+	height: 400px;
+	width: 35%;
+	background-color: white;
+	margin-left:16%;
+	margin-top: 10%;
+	box-shadow: 0 0 20px white;
+    border-radius:10px;
+    transform: 0.5s;  
+
+}
+.Form:hover{
+	transform: scale(1.2);
+}
+.Form input{
+	width: 90%;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lightgray;
+}
+.Form p{
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.Form h1{
+	cursor: pointer;
+}
+textarea{
+	margin-top: 20px;
+	border-radius:6px;
+	width: 90%;
+	background-color: lightgray;
+
+}
+.Submit-btn input{
+	width: 20%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	cursor: pointer;
+	background-color: silver;
+	transform: 0.5s;
+}
+.Submit-btn input:hover{
+	background-color: black;
+	color: white;
+	
+
+}
+.Cnt-me{
+	height: 400px;
+	width: 35%;
+	background-color: #0053AB ;
+	color:white;
+	margin-top: 10%;
+	margin-left:20px; 
+	box-shadow: 0 0 20px black;
+	border-radius:10px;
+	transform: 0.5s;
+}
+.Cnt-me:hover{
+	transform: scale(1.2);
+}
+.Cnt-me h2{
+   cursor: pointer;
+}
+.Cnt-me h3{
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 25px;
+}
+.Cnt-me p{
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+.btn3{
+	padding-top: 30px;
+}
+.btn3 a{
+	color: white;
+	border: 2px solid black;
+	font-size: 30px;
+	border-radius: 8px;
+}
+.btn3 a:hover{
+	background-color: darkred;
+	border: none;
+	color: white;
+}
+
+/*-----Site Report----*/
+.Site-Report{
+	background-color: lightgray;
+	height: 2000vh;
+}
+.Title{
+	text-align: center;
+	padding-top: 20px;
+     background: linear-gradient(to right, #00ffff 0%, #3399ff 100%); 
+}
+.Title h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.texts h1{
+	padding: 10px;
+}
+.texts p{
+	padding-left: 5px;
+}
+.Pictures{
+	margin-top: 30px;
+
+}
+.Pictures h1{
+	text-align: center;
+}
+
+.Snaps{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap:20px; 
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 20px;
+	padding: 40px;
+}
+.Snaps .Home-Pg img{
+       margin-top: 20px;
+       transform: 0.5s;
+}
+.Snaps .Home-Pg img:hover{
+     transform: scale(1.12)
+}
+.Snaps .Home-Pg h2{
+	cursor: pointer;
+	color: darkblue;
+
+}
+.Snaps .Portolio-pg img{
+       margin-top: 20px;
+       transform: 0.5s;
+}
+.Snaps .Portolio-pg img:hover{
+     transform: scale(1.12)
+}
+.Snaps .Portolio-pg h2{
+	cursor: pointer;
+	color: darkblue;
+
+}
+.Snaps .CV-Pg img{
+       margin-top: 20px;
+       transform: 0.5s;
+}
+.Snaps .CV-Pg img:hover{
+     transform: scale(1.12)
+}
+.Snaps .CV-Pg h2{
+	cursor: pointer;
+	color: darkblue;
+
+}
+.Snaps .Contact-Pg img{
+       margin-top: 20px;
+       transform: 0.5s;
+}
+.Snaps .Contact-Pg img:hover{
+     transform: scale(1.2)
+}
+.Snaps .Contact-Pg h2{
+	cursor: pointer;
+	color: darkblue;
+
+}
+.Report h1{
+	text-align: center;
+	padding-top: 30px;
+}
+.nav-bar-report h1{
+	text-align: center;
+	padding-top: 50px;
+}
+.nav-code-pic{
+	margin-left:50px; 
+	
+}
+.snap-txt{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid black;
+	box-shadow: 0 0 20px black;
+    border-radius:10px;
+}
+.snap-txt h3{
+	text-align: center;
+	font-size: 30px;
+}
+.snap-txt h4{
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.snap-txt p{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.snap-txt .image-3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 30px;
+}
+/*----Home Page Report CSS--*/
+
+.snap-txt-2{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid black;
+	box-shadow: 0 0 20px black;
+    border-radius:10px;
+}
+.snap-txt-2 h3{
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 26px;
+	text-decoration: underline;
+}
+.snap-txt-2 p{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.image-3{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+.home-report h1 {
+	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
+	margin-top:60px;
+}
+.image-4 img{
+	margin-left: 20px;
+}
+.Portfolio-report h1{
+	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
+	margin-top:60px;
+}
+.CV-report h1{
+	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
+	margin-top:60px;
+}
+.css-code{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+/*------Home page media quary----*/
+	nav
+	{
+		display: none;
+		background-color: black;
+
+
+	}
+	.menu ul{
+		display: inline-block;
+		padding: 20px;
+
+	}
+	.menu ul li {
+		padding: 20px;
+
+	
+	}
+	#bars:checked + nav
+	{
+		display: flex;
+	}
+	.togglearea
+	{	
+		display: flex;
+	}
+
+
+/*-----Porfolio page media quary-----*/
+	 .Project{
+	 	display: block;
+	 	height: 210%;
+	 } 
+	 .works{
+	 	margin-top: 0%;
+	 }
+	 /*------CV page media quary-----*/
+	 .cv-section{
+    	width: 100%;
+    	padding-left: 0px;
+    	margin-left: 0px;
+    }
+    .header{
+    	width: 100%;
+    }
+    .n-s{
+    	font-size: 20px;
+    	margin-left: 3px;
+    }
+
+    .left-info{	   
+	   height: 100vh;
+	   width: 40%;
+    }
+    .left-info h1{
+	font-size: 20px;
+
+     }
+     .about-me p{
+     	font-size: 15px;
+     }
+	.Intrest{
+		padding-top: 5px;
+	}
+    .Intrest .icons{
+	     font-size: 25px;
+	     padding-left: 0%;
+	     padding-top: 0px;
+	}
+	.Contact{
+	   margin-left:0%;
+	    
+	}
+	.E-mail p{
+		font-size: 15px;
+		letter-spacing: 0px;
+	}
+	.cn-bt{
+	    padding-top: 30px;
+	    font-size: 20px;
+    }
+    .cn-bt a{
+    	color: black;
+	    font-size: 20px;
+	    border: 3px solid black;
+	    border-radius: 4px;
+	    transform: 0.5s;
+    }
+
+    /*------Contact form ----*/
+    .Contact-form{
+    	display: block;
+    	height: 120vh;
+    }
+    
+    .Form{
+    	margin-top: 0px;
+	   height: 400px;
+	   width: 70%;
+	   margin-left:60px;
+	   
+    }
+    .Form:hover{
+    	transform: none;
+    }
+    .Cnt-me{
+	   height: 400px;
+	   width: 70%;
+	   margin-left:60px;
+	  }
+	.Cnt-me:hover{
+      transform: none;
+	}
+	.Cnt-me p{
+		padding-left: 20px;
+	}
+}
