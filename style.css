@@ -58,7 +58,7 @@ nav{
 	align-items: center;
 	flex-direction: column;
 }
-.togglearea label div{
+.togglearea label span{
 	background-color: black;
 	height: 4px;
 	width: 70%;
@@ -70,14 +70,22 @@ nav{
 	height: 93vh;
 }
 .intro{
-	padding-left: 35%;
+	padding-left: 33%;
 }
 .intro h1{
-	font-size: 35px;
+	color:white;
+	font-size: 55px;
 }
 .intro h2{
+    font-size:40px;
+}
+.intro h3{
+	font-size:40px;
+	color: white;
+    text-decoration: underline;
+}
+.intro p{
 	font-size: 20px;
-	text-decoration: underline;
 }
 .btn{
 	padding-left: 35%;
@@ -376,205 +384,86 @@ textarea{
 }
 
 /*-----Site Report----*/
-.Site-Report{
+.Report{
+
+}
+.Cover-page{
+	display: flex; 
 	background-color: lightgray;
-	height: 2000vh;
-}
-.Title{
-	text-align: center;
-	padding-top: 20px;
-     background: linear-gradient(to right, #00ffff 0%, #3399ff 100%); 
-}
-.Title h1{
-    padding-bottom: 10px;
-    font-size: 25px;
-
 }
 
-.texts h1{
-	padding: 10px;
-}
-.texts p{
-	padding-left: 5px;
-}
-.Pictures{
-	margin-top: 30px;
 
+
+.B1{	
+	width:10%;
+	height: 93.5vh;
+	background-color:#04264B;
+	margin-left:0.5%;
 }
-.Pictures h1{
-	text-align: center;
+.B2{	
+	width:7%;
+	height: 93.5vh;
+	background-color:#16A085;
+	margin-left: 2%;
+}
+.B3{	
+	width:5%;
+	height: 93.5vh;
+	background-color:#117A65;
+	margin-left:3%;
 }
 
-.Snaps{
-	text-align: center;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap:20px; 
-	grid-template-rows: 1fr 1fr;
-	grid-row-gap: 20px;
-	padding: 40px;
+.Titles{
+	display: flex;
+	margin-top: 60px;
+	font-size: 40px;
 }
-.Snaps .Home-Pg img{
-       margin-top: 20px;
-       transform: 0.5s;
+.site{
+	color: #AAB100 ;
+	display: flex;
+	padding-left:110%;
 }
-.Snaps .Home-Pg img:hover{
-     transform: scale(1.12)
-}
-.Snaps .Home-Pg h2{
-	cursor: pointer;
-	color: darkblue;
-
-}
-.Snaps .Portolio-pg img{
-       margin-top: 20px;
-       transform: 0.5s;
-}
-.Snaps .Portolio-pg img:hover{
-     transform: scale(1.12)
-}
-.Snaps .Portolio-pg h2{
-	cursor: pointer;
-	color: darkblue;
-
-}
-.Snaps .CV-Pg img{
-       margin-top: 20px;
-       transform: 0.5s;
-}
-.Snaps .CV-Pg img:hover{
-     transform: scale(1.12)
-}
-.Snaps .CV-Pg h2{
-	cursor: pointer;
-	color: darkblue;
-
-}
-.Snaps .Contact-Pg img{
-       margin-top: 20px;
-       transform: 0.5s;
-}
-.Snaps .Contact-Pg img:hover{
-     transform: scale(1.2)
-}
-.Snaps .Contact-Pg h2{
-	cursor: pointer;
-	color: darkblue;
-
-}
-.Report h1{
-	text-align: center;
-	padding-top: 30px;
-}
-.nav-bar-report h1{
-	text-align: center;
-	padding-top: 50px;
-}
-.nav-code-pic{
-	margin-left:50px; 
-	
-}
-.snap-txt{
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid black;
-	box-shadow: 0 0 20px black;
-    border-radius:10px;
-}
-.snap-txt h3{
-	text-align: center;
-	font-size: 30px;
-}
-.snap-txt h4{
-	padding-left: 20px;
-	padding-top: 15px;
-	font-size: 20px;
-	text-decoration: underline;
-}
-.snap-txt p{
-	padding-top: 10px;
+.site h2 {
+	color: #117A65;
 	padding-left: 10px;
 }
-.snap-txt .image-3{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding-left: 30px;
+.Text-1{
+	text-align: center;
+	padding-top:12%;
+	padding-right: 30%;
+	font-size: 20px;
 }
-/*----Home Page Report CSS--*/
-
-.snap-txt-2{
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid black;
-	box-shadow: 0 0 20px black;
-    border-radius:10px;
+.second-page{
+   background-color: #E5E7E9;
+   height: 100vh;
 }
-.snap-txt-2 h3{
-	padding-left: 20px;
-	padding-top: 15px;
-	font-size: 26px;
-	text-decoration: underline;
-}
-.snap-txt-2 p{
-	padding-top: 10px;
-	padding-left: 25px;
-}
-.image-3{
-	padding-left: 40px;
-	padding-top: 30px;
-}
-.home-report h1 {
-	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
-	margin-top:60px;
-}
-.image-4 img{
-	margin-left: 20px;
-}
-.Portfolio-report h1{
-	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
-	margin-top:60px;
-}
-.CV-report h1{
-	background: linear-gradient(to right, #00ffff 0%, #3399ff 100%);
-	margin-top:60px;
-}
-.css-code{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+.Exp{
+	display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.d1{
+	text-align: center;
+	width:50%;
+	height:50vh;
+	background-color:#16A085;
+	margin-left: 2%;
+	margin-top: 10px;	
+}
+.d1 h1{
+	padding-top: 20%;
+}
+.d2{
+	width:50%;
+	height: 50vh;
+	background-color:#52BE80;
+	margin-left: 2%;
+	margin-top: 10px;
+	
+}
+.d2 p{
+	padding-top: 16%;
+	padding-left: 10px;
+}
 
 
 
