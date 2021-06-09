@@ -295,13 +295,9 @@ nav{
 	margin-left:16%;
 	margin-top: 10%;
 	box-shadow: 0 0 20px white;
-    border-radius:10px;
-    transform: 0.5s;  
+    border-radius:10px; 
+}
 
-}
-.Form:hover{
-	transform: scale(1.2);
-}
 .Form input{
 	width: 90%;
 	border-radius: 10px;
@@ -348,11 +344,8 @@ textarea{
 	margin-left:20px; 
 	box-shadow: 0 0 20px black;
 	border-radius:10px;
-	transform: 0.5s;
 }
-.Cnt-me:hover{
-	transform: scale(1.2);
-}
+
 .Cnt-me h2{
    cursor: pointer;
 }
@@ -435,36 +428,71 @@ textarea{
 }
 .second-page{
    background-color: #E5E7E9;
-   height: 100vh;
+   height: 170vh;
 }
 .Exp{
 	display: flex;
 }
-
-.d1{
+.d{
+	background-color:#16A085;
+	width: 30px; 
+	height: 30px;
+	transform: rotate(45deg);
+	margin-left: 98%;
+}
+.Box1{
 	text-align: center;
 	width:50%;
 	height:50vh;
 	background-color:#16A085;
 	margin-left: 2%;
 	margin-top: 10px;	
+	border-radius: 20px;
 }
-.d1 h1{
+.Box1 h1{
 	padding-top: 20%;
 }
-.d2{
+.Box2{
 	width:50%;
 	height: 50vh;
 	background-color:#52BE80;
 	margin-left: 2%;
 	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
 	
 }
-.d2 p{
+.Box2 p{
 	padding-top: 16%;
 	padding-left: 10px;
 }
-
+.Design{
+	display: flex;
+}
+.Design .Box3{
+	text-align: center;
+	width:50%;
+	height:50vh;
+	background-color:#16A085;
+	margin-left: 2%;
+	margin-top: 10%;
+	border-radius: 20px;	
+}
+.Design .Box4{
+	width:50%;
+	height: 98vh;
+	background-color:#52BE80;
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.Design h1{
+	font-size: 30px;
+	padding-top: 25%;
+}
+.Design p{
+}
 
 
 
