@@ -491,13 +491,39 @@ textarea{
 	font-size: 30px;
 	padding-top: 25%;
 }
-.Design p{
+.Module-experience{
+	display: flex;
 }
-
-
-
-
-
+ .Box5{
+	text-align: center;
+	width:50%;
+	height:50vh;
+	background-color:#16A085;
+	margin-left: 2%;
+	margin-top: 10px;	
+	border-radius: 20px;
+}
+.Box5 h1{
+	padding-top: 25%;
+	font-size: 35px;
+}
+.Box6{
+	width:50%;
+	height: 50vh;
+	background-color:#52BE80;
+	margin-left: 2%;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	
+}
+.Box6 .prgh{
+	padding-top: 5%;
+}
+.Box6 p{
+	padding-top: 2%;
+	padding-left: 10px;
+}
 
 
 
