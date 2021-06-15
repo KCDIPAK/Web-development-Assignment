@@ -68,12 +68,13 @@ nav{
 .Home{
 	display: flex;
 	background: linear-gradient(-45deg, #5D6D7E  ,#ABB2B9 , #CACFD2  );
-	height: 93.5vh;
-	animation: Home 5s ease-in-out infinite;
+	height: 100vh;
 }
 .pic{
-	padding-top: 45px;
+	position: absolute;
+	margin-left: 50%;
 }
+
 .Home .texts-1{	
 	padding-left: 30%;
 	padding-top:15%;
@@ -464,15 +465,21 @@ textarea{
 	text-align: center;
 	width:50%;
 	height:50vh;
-	background-color:#16A085;
+	background-color:#000a35;
 	margin-left: 2%;
 	margin-top: 10%;
+	color: whitesmoke;
 	border-radius: 20px;	
+}
+.Design .d{
+	background-color:#000a35;
+	margin-left: 97.5%;
 }
 .Design .Box4{
 	width:50%;
-	height: 98vh;
+	height: 117vh;
 	background-color:#52BE80;
+	
 	margin-left: 2%;
 	margin-top: 1%;
 	margin-right: 10px;
@@ -529,7 +536,7 @@ textarea{
 	width: 30px; 
 	height: 30px;
 	transform: rotate(45deg);
-	margin-top: 47px;
+	margin-top: 23px;
 	margin-left: 47%;
 	
 }
@@ -540,7 +547,12 @@ textarea{
 .progress-pic img{
 	padding: 20px;
 }
-
+.home-progress{
+	display: flex;
+}
+.CV-progress{
+	display: flex;
+}
 
 
 
