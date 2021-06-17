@@ -1,3 +1,4 @@
+  
 *{
 	margin: 0;
 	padding: 0;
@@ -369,16 +370,15 @@ textarea{
 }
 
 /*-----Site Report----*/
-.Report{
 
+.Report{
+	
 }
 .Cover-page{
+
 	display: flex; 
 	background-color: lightgray;
 }
-
-
-
 .B1{	
 	width:10%;
 	height: 93.5vh;
@@ -415,12 +415,17 @@ textarea{
 .Text-1{
 	text-align: center;
 	padding-top:12%;
-	padding-right: 30%;
 	font-size: 20px;
 }
+.Text-1 h1, h2, h4{
+    padding-right: 50%;
+}
+.Text-2 p{
+	padding-right: 50%;
+}
 .second-page{
-   background-color: #E5E7E9;
-   height: 500vh;
+   background-color: darkgrey;
+   height: 1000vh;
 }
 .Exp{
 	display: flex;
@@ -478,8 +483,7 @@ textarea{
 .Design .Box4{
 	width:50%;
 	height: 117vh;
-	background-color:#52BE80;
-	
+	background-color:#52BE80;	
 	margin-left: 2%;
 	margin-top: 1%;
 	margin-right: 10px;
@@ -496,10 +500,14 @@ textarea{
 	text-align: center;
 	width:50%;
 	height:50vh;
-	background-color:#16A085;
+	background-color:#005892;
 	margin-left: 2%;
 	margin-top: 10px;	
 	border-radius: 20px;
+}
+.Module-experience .d{
+	background-color:#005892;
+	
 }
 .Box5 h1{
 	padding-top: 25%;
@@ -526,17 +534,18 @@ textarea{
 	text-align: center;
 	width:50%;
 	height:20vh;
-	background-color:#16A085;
+	background-color:#570072;
+	color: white;
 	margin-left: 25%;
 	margin-top: 60px;	
 	border-radius: 20px;
 }
 .arrow{
-	background-color:#16A085;
+	background-color:#570072;
 	width: 30px; 
 	height: 30px;
 	transform: rotate(45deg);
-	margin-top: 23px;
+	margin-top: 40px;
 	margin-left: 47%;
 	
 }
@@ -550,11 +559,40 @@ textarea{
 .home-progress{
 	display: flex;
 }
+
 .CV-progress{
 	display: flex;
 }
-
-
+.Box8{
+	text-align: center;
+	width:50%;
+	height:20vh;
+	background-color:#29002e;
+	color: wheat;
+	margin-left: 25%;
+	margin-top: 60px;	
+	border-radius: 20px;
+}
+.Code-valadation a{
+	color: black;
+	border: wheat;
+	background-color: white;
+	border-radius: 15px;
+	
+}
+.Code-valadation .arrow{
+	background-color:#29002e;
+	width: 30px; 
+	height: 30px;
+	transform: rotate(45deg);
+	margin-top: 68px;
+	margin-left: 47%;
+}
+.Code-valadation h2{
+	font-size: 40px;
+	text-align: center;
+	padding: 50px;
+}
 
 
 
@@ -614,10 +652,9 @@ textarea{
 
 @media screen and (max-width: 700px){
 /*------Home page media quary----*/
-	nav
-	{
+	nav{
 		display: none;
-		background-color: black;
+		background-color: rgb(25, 0, 117);
 
 
 	}
@@ -629,15 +666,20 @@ textarea{
 	.menu ul li {
 		padding: 20px;
 
+	}
+	#bars:checked + nav{
+		display: flex;
+	}
+	.togglearea{	
+		display: flex;
+	}
+	.pic{
+		display: none;
+	}
 	
-	}
-	#bars:checked + nav
-	{
-		display: flex;
-	}
-	.togglearea
-	{	
-		display: flex;
+	.texts-1{
+		font-size: 30px;
+		
 	}
 
 
@@ -663,7 +705,8 @@ textarea{
     	margin-left: 3px;
     }
 
-    .left-info{	   
+    .left-info{	  
+		padding-left: 30px; 
 	   height: 100vh;
 	   width: 40%;
     }
@@ -728,5 +771,82 @@ textarea{
 	}
 	.Cnt-me p{
 		padding-left: 20px;
+	}
+
+/*------SiteReoprt page ----*/
+.Report{
+	width: 100%;
+}
+   .B1, .B2, .B3{
+	   display: none;
+   }
+   .site{
+	   padding-left: 50%;
+   }
+   .Text-1{
+	padding-top:30%;
+   }
+   .Text-1 h1, h2, h4{
+    padding-right: 50%;
+} 
+   .Exp{
+	   display: inline;	  
+   }
+   .Box1{
+	   height: 40vh;
+	   width: 60%;
+	   margin-left:25%;
+   }
+   .Box2{
+	   
+	   width: 100%;
+	   
+   }
+   .d{
+	background-color:#16A085;
+	margin-top: 37%;
+	margin-left:45%; 
+    }
+	.Design{
+		display: inline;
+	}
+	.Design .Box3{
+		height: 50vh;
+		margin-left: 25%;
+		width: 60%;
+	}
+	
+	.Design .d{
+		background-color:#000a35;
+		margin-top: 56%;
+		margin-left:45%; 
+		}
+	.Design .Box4{
+		width: 100%;
+	}
+	.Module-experience{
+		display: inline;
+	}
+	.Box5{
+		width:60%;
+		background-color:#005892;
+		margin-left: 25%;	
+	}
+	.Module-experience .d{
+		background-color:#005892;
+		margin-top: 55%;
+		margin-left:45%;
+		
+	}	
+	.Box6{
+		width:100%;
+		
+	}
+	.home-progress{
+		width: 500px;
+		display: inline;
+	}
+	.CV-progress{
+		display: inline;
 	}
 }
