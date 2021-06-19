@@ -70,6 +70,7 @@ nav{
 	display: flex;
 	background: linear-gradient(-45deg, #5D6D7E  ,#ABB2B9 , #CACFD2  );
 	height: 100vh;
+	width: 100%;
 }
 .pic{
 	position: absolute;
@@ -279,15 +280,16 @@ nav{
    height: 95vh;
    display: flex;
    text-align: center;
-   background: linear-gradient(to bottom, #33cccc 0%, #cc66ff 100%);
+   background-color:rgb(50, 49, 114); 
 }
 .Form{
 	height: 400px;
 	width: 35%;
-	background-color: white;
+	background-color: rgb(55, 53, 161);
+	color: white;
 	margin-left:16%;
 	margin-top: 10%;
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 20px black;
     border-radius:10px; 
 }
 
@@ -331,7 +333,7 @@ textarea{
 .Cnt-me{
 	height: 400px;
 	width: 35%;
-	background-color: #0053AB ;
+	background-color: rgb(55, 53, 161);
 	color:white;
 	margin-top: 10%;
 	margin-left:20px; 
@@ -370,10 +372,6 @@ textarea{
 }
 
 /*-----Site Report----*/
-
-.Report{
-	
-}
 .Cover-page{
 
 	display: flex; 
@@ -412,20 +410,18 @@ textarea{
 	color: #117A65;
 	padding-left: 10px;
 }
-.Text-1{
+.Texts{
 	text-align: center;
 	padding-top:12%;
 	font-size: 20px;
 }
-.Text-1 h1, h2, h4{
-    padding-right: 50%;
+.Text-1{
+	padding-right:30%;
 }
-.Text-2 p{
-	padding-right: 50%;
-}
+
 .second-page{
    background-color: darkgrey;
-   height: 1000vh;
+   height: 900vh;
 }
 .Exp{
 	display: flex;
@@ -592,6 +588,8 @@ textarea{
 	font-size: 40px;
 	text-align: center;
 	padding: 50px;
+	color: whitesmoke;
+	background-color: brown;
 }
 
 
@@ -786,9 +784,7 @@ textarea{
    .Text-1{
 	padding-top:30%;
    }
-   .Text-1 h1, h2, h4{
-    padding-right: 50%;
-} 
+  
    .Exp{
 	   display: inline;	  
    }
@@ -804,7 +800,7 @@ textarea{
    }
    .d{
 	background-color:#16A085;
-	margin-top: 37%;
+	margin-top: 27%;
 	margin-left:45%; 
     }
 	.Design{
@@ -818,11 +814,12 @@ textarea{
 	
 	.Design .d{
 		background-color:#000a35;
-		margin-top: 56%;
+		margin-top: 42%;
 		margin-left:45%; 
 		}
 	.Design .Box4{
 		width: 100%;
+		height: 150vh;
 	}
 	.Module-experience{
 		display: inline;
@@ -834,7 +831,7 @@ textarea{
 	}
 	.Module-experience .d{
 		background-color:#005892;
-		margin-top: 55%;
+		margin-top: 41%;
 		margin-left:45%;
 		
 	}	
@@ -842,11 +839,25 @@ textarea{
 		width:100%;
 		
 	}
+	.arrow{	
+		margin-top:0.5px;
+			
+	}
 	.home-progress{
-		width: 500px;
 		display: inline;
 	}
 	.CV-progress{
 		display: inline;
 	}
+
+	.Code-valadation .arrow{		
+		margin-top: 35px;
+	}
+		
+
+
+
+
+	    
+
 }
